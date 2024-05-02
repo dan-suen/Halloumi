@@ -1,5 +1,6 @@
 import { useState } from "react";
 import sendMessage from "../../hooks/sendmessage";
+import "./messaging.scss"
 
 const SendMessageButton = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -26,7 +27,7 @@ const SendMessageButton = () => {
       });
   };
   return (
-    <div>
+    <div className="main">
       <form onSubmit={handleSubmit}>
         <label htmlFor="number">Phone number</label>
         <input
@@ -43,7 +44,7 @@ const SendMessageButton = () => {
           value={message}
           onChange={handleChangeText}
         />
-        <button type="submit">Send Message</button>
+        <button className="btn btn-primary" type="submit">Send Message</button>
       </form>
     </div>
   );
