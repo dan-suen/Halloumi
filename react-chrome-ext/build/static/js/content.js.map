@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/content.js","mappings":"mBAAAA,QAAQC,IAAI,oB","sources":["content/index.tsx"],"sourcesContent":["console.log('[content] loaded ')\n\nexport {}"],"names":["console","log"],"sourceRoot":""}
