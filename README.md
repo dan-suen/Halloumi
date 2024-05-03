@@ -1,5 +1,5 @@
 # Halloumi
-![Halloumi](image-url.jpg)
+![Halloumi](https://github.com/dan-suen/my-chrome-extension/blob/main/halloumi.png?raw=true)
 Halloumi is a ready-to-use chrome extension built using React and Typescript that allows users to send texts from the Google Chrome browser via the Twilio SMS API. 
 
 ## **READ FIRST**
