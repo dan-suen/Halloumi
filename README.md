@@ -14,7 +14,7 @@ file to your server URL or use the existing one (with the restrictions stated ab
 
 ### Setting up the Express server (optional)
 Navigate to 
-``` express-back-end/sendmessage.ts ```
+``` express-back-end/sendmessage.js ```
 and fill in your Twilio account information. Then host your Express server locally 
 ``` node server.js ```
 Or host it online where available.
