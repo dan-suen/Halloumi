@@ -8,7 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import express from 'express';
-import sendSMS from './sendmessage'; // Assuming sendmessage.ts exports a default function
+import sendSMS from './sendmessage.js'; // Assuming sendmessage.ts exports a default function
 const app = express();
 const port = process.env.PORT || 3000;
 // Middleware to parse JSON bodies

@@ -1,11 +1,13 @@
 import twilio from 'twilio';
 
 // Your Twilio API credentials
-const accountSid: string = '';
-const authToken: string = '';
+const apiKey: string = 'SK90d23fe6d1fa397dc421ff4e66b766d1';
+const authToken: string = 'O120d38KUlOMxGaWAMnvxVnffLbUYoUD';
+const accountSid: string = 'ACc74e1bc5f3681f72698237f33c0227ec';
 
-// Create a Twilio client instance
-const client: twilio.Twilio = twilio(accountSid, authToken);
+
+// Create a Twilio client instance with the API Key
+const client = twilio(apiKey, authToken, { accountSid: accountSid });
 
 // Function to send an SMS message
 async function sendSMSMsg(phoneNumber: string, message: string): Promise<string> {

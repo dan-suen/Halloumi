@@ -9,10 +9,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 import twilio from 'twilio';
 // Your Twilio API credentials
-const accountSid = '';
-const authToken = '';
-// Create a Twilio client instance
-const client = twilio(accountSid, authToken);
+const apiKey = 'SK90d23fe6d1fa397dc421ff4e66b766d1';
+const authToken = 'O120d38KUlOMxGaWAMnvxVnffLbUYoUD';
+const accountSid = 'ACc74e1bc5f3681f72698237f33c0227ec';
+// Create a Twilio client instance with the API Key
+const client = twilio(apiKey, authToken, { accountSid: accountSid });
 // Function to send an SMS message
 function sendSMSMsg(phoneNumber, message) {
     return __awaiter(this, void 0, void 0, function* () {

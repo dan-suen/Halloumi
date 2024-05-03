@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import sendSMS from './sendmessage'; // Assuming sendmessage.ts exports a default function
+import sendSMS from './sendmessage.js'; // Assuming sendmessage.ts exports a default function
 import { AddressInfo } from 'net';
 
 const app = express();
